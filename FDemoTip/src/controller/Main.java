@@ -20,11 +20,11 @@ public class Main {
 		CZakaznik zakazniki[] = {   new CZakaznik("Puebla", "Teresa", "Tehovska 10", 'f'), 
 									new CZakaznik("Bergues", "Alejandro", "Tehovska 10", 'm'),
 									new CZakaznik("Bergue", "Jennifer", "Tehovska 10", 'f')};
+		CSpravovatZakazniki spravovatZ = new CSpravovatZakazniki();
+		spravovatZ.ustavitZakazniki(zakazniki);
 		
 		System.out.println("Prijmeno    Jmeno    Adresa    Rod");
-		for(int i = 0; i < zakazniki.length; i++){
-			System.out.println(zakazniki[i].getPrijmeno() + "  " + zakazniki[i].getJmeno() + "  " + zakazniki[i].getAdresa() + "  " + zakazniki[i].getRod());
-		}
+		spravovatZ.zobrazit();
 		
 		CClovek reditel = new CClovek("Dvorak", "Petr", 42);
 		System.out.println("Reditel: "+ reditel.toString());
