@@ -14,11 +14,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("DOBRY DEN, VAZENI ZAKAZNIKI");
-		System.out.println("VITAVAME VAM");
+		System.out.println("Dobry den, vazeni zakazniki.");
+		System.out.println("Vitavame vam.");
 		
 		CClovek reditel = new CClovek("Dvorak", "Petr", 42);
-		System.out.println("REDITEL: "+ reditel.toString());
+		System.out.println("Reditel: "+ reditel.toString());
 	}
 
 }
