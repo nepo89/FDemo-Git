@@ -34,7 +34,9 @@ public class Main {
 		spravovatZ.zobrazit();
 		
 		CClovek reditel = new CClovek("Dvorak", "Petr", 42);
+		System.out.println("----------------------------");
 		System.out.println("Reditel: "+ reditel.toString());
+		System.out.println("----------------------------");
 	}
 
 }
