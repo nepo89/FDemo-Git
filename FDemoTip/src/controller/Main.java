@@ -30,6 +30,8 @@ public class Main {
 		zakazniki[0] = new CZakaznik("Puebla", "Teresa", "Tehovska 10", 'f'); 
 		zakazniki[1] = new CZakaznik("Bergues", "Alejandro", "Tehovska 10", 'm');
 		
+		spravovatZ.ustavitZakazniki(zakazniki);
+		spravovatZ.zobrazit();
 		
 		CClovek reditel = new CClovek("Dvorak", "Petr", 42);
 		System.out.println("Reditel: "+ reditel.toString());
